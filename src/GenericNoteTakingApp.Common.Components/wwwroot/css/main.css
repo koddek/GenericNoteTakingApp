@@ -1,0 +1,15 @@
+.bcolor {
+    background-color: palegreen;
+}
+
+.font-size {
+    font-size: 30px;
+}
+
+.loading-progress-text {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #1c1f23;
+}

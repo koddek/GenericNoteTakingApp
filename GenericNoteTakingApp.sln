@@ -1,8 +1,34 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericNoteTakingApp.Common", "src\GenericNoteTakingApp.Common\GenericNoteTakingApp.Common.csproj", "{71911406-19E9-4D5B-9F25-FCB8642BD19D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericNoteTakingApp", "src\GenericNoteTakingApp\GenericNoteTakingApp.csproj", "{05A50182-8F1E-4210-8FF5-6BC9C26BAA3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericNoteTakingApp.Common.Components", "src\GenericNoteTakingApp.Common.Components\GenericNoteTakingApp.Common.Components.csproj", "{EE94BF0F-D92D-4669-AC0E-287C795A80B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericNoteTakingApp.Web", "src\GenericNoteTakingApp.Web\GenericNoteTakingApp.Web.csproj", "{FD35EA0B-785A-443B-943E-B42EF8CD35D0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{71911406-19E9-4D5B-9F25-FCB8642BD19D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71911406-19E9-4D5B-9F25-FCB8642BD19D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71911406-19E9-4D5B-9F25-FCB8642BD19D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71911406-19E9-4D5B-9F25-FCB8642BD19D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05A50182-8F1E-4210-8FF5-6BC9C26BAA3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05A50182-8F1E-4210-8FF5-6BC9C26BAA3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05A50182-8F1E-4210-8FF5-6BC9C26BAA3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05A50182-8F1E-4210-8FF5-6BC9C26BAA3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE94BF0F-D92D-4669-AC0E-287C795A80B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE94BF0F-D92D-4669-AC0E-287C795A80B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE94BF0F-D92D-4669-AC0E-287C795A80B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE94BF0F-D92D-4669-AC0E-287C795A80B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD35EA0B-785A-443B-943E-B42EF8CD35D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD35EA0B-785A-443B-943E-B42EF8CD35D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD35EA0B-785A-443B-943E-B42EF8CD35D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD35EA0B-785A-443B-943E-B42EF8CD35D0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
